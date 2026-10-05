@@ -8,3 +8,17 @@ print(direcion)
 print(f"Esta cadena tiene {len(direcion)} caracteres!")
 
 #Ejercicio 2
+#3 -> no se puede llamar True
+#4 -> no puede tener espacio
+#5 -> no se puede llamar import
+#6 -> no puede empezar por un numero
+
+#Ejercicio 3
+x : int = 10
+y : float = 4.44
+print(type(x))
+print(type(y))
+suma = x + y
+print(type(suma))
+del x
+del y
