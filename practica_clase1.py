@@ -83,28 +83,39 @@ lista_actividades.append(dict_contactos)
 #Ejerciccio 7
 peliculas = ["Inception", "The Matrix", "Interstellar", "Gladiator"]
 # a) Imprime todas las películas.
-print(peliculas)
+#print(peliculas)
 
 # b) Añade "El Padrino" al final.
 peliculas.append("El Padrino")
-print(peliculas)
+#print(peliculas)
 
 # c) Inserta "Memento" en la posición 2.
 peliculas.insert(3, "Memento")
-print(peliculas)
+#print(peliculas)
 
 # d) Elimina "Gladiator".
 peliculas.remove("Gladiator")
-print(peliculas)
+#print(peliculas)
 
 # e) Elimina y muestra la última película. Investiga si puedes hacer lo mismo con cualquier elemento de la lista, o sólo con el último. Contéstalo en un comentario.
 peliculas.pop(-1)
-print(peliculas[-1])
+#print(peliculas[-1])
 
 # f) Ordena la lista alfabéticamente.
 peliculas.sort()
-print(peliculas)
+#print(peliculas)
 
 # g) Vacía la lista y muestra que está vacía.
 peliculas.clear()
-print(peliculas)
+#print(peliculas)
+
+#Ejercicio 8
+nota = 75
+if nota >= 90:
+    print("Excelente")
+elif nota >= 70 and nota <= 89:
+    print("Bueno")
+elif nota >= 50 and nota <= 69:
+    print("Suficiente")
+else:
+    print("Insuficiente")
