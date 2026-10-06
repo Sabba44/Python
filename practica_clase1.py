@@ -4,8 +4,8 @@ numero_calle = "7"
 ciudad = "Valencia"
 codigo_postal = "46001"
 direcion = f"{nombre_calle}, {numero_calle}, {ciudad}, {codigo_postal}"
-# print(direcion)
-# print(f"Esta cadena tiene {len(direcion)} caracteres!")
+print(direcion)
+print(f"Esta cadena tiene {len(direcion)} caracteres!")
 
 #Ejercicio 2
 #3 -> no se puede llamar True
@@ -16,44 +16,44 @@ direcion = f"{nombre_calle}, {numero_calle}, {ciudad}, {codigo_postal}"
 #Ejercicio 3
 x : int = 10
 y : float = 4.44
-# print(type(x))
-# print(type(y))
+print(type(x))
+print(type(y))
 suma = x + y
-# print(type(suma))
+print(type(suma))
 del x
 del y
 
 #Ejercicio 4.1
 a = 10
 b = 3
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
-# print(a % b)
-# print((a + b) * 2 -5)
-# print(a // b)
-# print(a** 2)
-# print(b** 2)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print((a + b) * 2 -5)
+print(a // b)
+print(a** 2)
+print(b** 2)
 
 # #Ejercicio 4.2
-# print(a == b)
-# print(a != b)
-# print(a > b)
-# print(b <= a)
-# print(a+5 >= b*2)
+print(a == b)
+print(a != b)
+print(a > b)
+print(b <= a)
+print(a+5 >= b*2)
 
 # #Ejercicio 4.3
-# print(a>5 and b<5)
-# print(a<5 and b<5)
-# print(a != b)
-# print(a>5 and b!=10)
+print(a>5 and b<5)
+print(a<5 and b<5)
+print(a != b)
+print(a>5 and b!=10)
 
 #Ejercicio 5
 frase = "A quien madruga, dios le ayuda"
-# print(frase)
-# print(frase.upper())
-# print(frase.lower())
+print(frase)
+print(frase.upper())
+print(frase.lower())
 
 #Ejercicio 6
 puntuacion : int = 100
@@ -78,7 +78,7 @@ lista_actividades.append(lista_compras)
 lista_actividades.append(tupla_mascota1)
 lista_actividades.append(tupla_mascota2)
 lista_actividades.append(dict_contactos)
-# print(lista_actividades)
+print(lista_actividades)
 
 #Ejerciccio 7
 peliculas = ["Inception", "The Matrix", "Interstellar", "Gladiator"]
