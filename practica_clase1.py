@@ -108,3 +108,14 @@ print(peliculas)
 # g) Vacía la lista y muestra que está vacía.
 peliculas.clear()
 print(peliculas)
+
+#Ejercicio 8
+nota = 75
+if nota >= 90:
+    print("Excelente")
+elif nota >= 70 and nota <= 89:
+    print("Bueno")
+elif nota >= 50 and nota <= 69:
+    print("Suficiente")
+else:
+    print("Insuficiente")
