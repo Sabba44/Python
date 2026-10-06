@@ -51,9 +51,9 @@ b = 3
 
 #Ejercicio 5
 frase = "A quien madruga, dios le ayuda"
-print(frase)
-print(frase.upper())
-print(frase.lower())
+# print(frase)
+# print(frase.upper())
+# print(frase.lower())
 
 #Ejercicio 6
 puntuacion : int = 100
@@ -78,4 +78,33 @@ lista_actividades.append(lista_compras)
 lista_actividades.append(tupla_mascota1)
 lista_actividades.append(tupla_mascota2)
 lista_actividades.append(dict_contactos)
-print(lista_actividades)
+# print(lista_actividades)
+
+#Ejerciccio 7
+peliculas = ["Inception", "The Matrix", "Interstellar", "Gladiator"]
+# a) Imprime todas las películas.
+print(peliculas)
+
+# b) Añade "El Padrino" al final.
+peliculas.append("El Padrino")
+print(peliculas)
+
+# c) Inserta "Memento" en la posición 2.
+peliculas.insert(3, "Memento")
+print(peliculas)
+
+# d) Elimina "Gladiator".
+peliculas.remove("Gladiator")
+print(peliculas)
+
+# e) Elimina y muestra la última película. Investiga si puedes hacer lo mismo con cualquier elemento de la lista, o sólo con el último. Contéstalo en un comentario.
+peliculas.pop(-1)
+print(peliculas[-1])
+
+# f) Ordena la lista alfabéticamente.
+peliculas.sort()
+print(peliculas)
+
+# g) Vacía la lista y muestra que está vacía.
+peliculas.clear()
+print(peliculas)
