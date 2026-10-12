@@ -105,3 +105,22 @@
 
 # print(conta_letra("Ciao, come stai?", "C"))
 
+#Ejercicio 12
+
+def contar_letras(texto):
+    letras_en_palabra = {
+
+}
+
+    for i in texto.lower():
+        if i.isalpha() == False:
+            continue
+        elif i.isalpha() == True:
+            if i in letras_en_palabra:
+                letras_en_palabra[i] += 1
+            else:
+                letras_en_palabra[i] = 1
+    return letras_en_palabra
+
+print(contar_letras("Buongiorno"))
+
