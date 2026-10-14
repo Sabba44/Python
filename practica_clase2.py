@@ -121,7 +121,26 @@
 
 # print(contar_letras("Buongiorno"))
 
-#Ejercicio 13
+# #Ejercicio 13
+# import math
+
+# def area_cuadrado(lato):
+#     return lato**2
+
+# def area_triangulo(base, altezza):
+#     return base * altezza / 2
+
+# def area_circulo(r):
+#     return math.pi * r**2
+
+# def punto_1():
+#     return area_circulo(10)*2 + area_triangulo(3, 7)
+
+# def punto_2():
+#     return area_cuadrado(10) + area_circulo(4) + 2 * area_circulo(6) + 5 * area_triangulo(4, 2)
+
+# print(punto_1())
+# print(punto_2())
 
 
 # #Ejercicio 14
@@ -130,4 +149,27 @@
 
 # datos("Lorenzo", "Sabbatini", 25)
 
-#Ejercicio 15
+# #Ejercicio 15
+# def datos(nombre, edad, ciudad, profesion):
+#     print(f"nombre: {nombre}")
+#     print(f"edad: {edad}")
+#     print(f"ciudad: {ciudad}")
+#     print(f"profesion: {profesion}")
+
+# datos("Lorenzo", 25, profesion="Estudiante", ciudad="Milan")
+
+# #Ejercicio 16
+# def sumar_todos(*args):
+#     total = 0
+#     for n in args:
+#         total += n
+#     return total
+
+# print(sumar_todos(4, 5, 10))
+
+# #Ejercicio 17
+# def usuario(**kwargs):
+#     for clave, valor in kwargs.items():
+#         print(f"Info: {clave} = {valor}")
+
+# usuario(nombre="Lorenzo", libros=2, edad=25)
