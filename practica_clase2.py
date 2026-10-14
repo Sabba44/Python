@@ -173,3 +173,13 @@
 #         print(f"Info: {clave} = {valor}")
 
 # usuario(nombre="Lorenzo", libros=2, edad=25)
+
+# #Ejercicio 18
+# moltiplicacion = lambda n: n*2
+# print(moltiplicacion(10))
+
+# #Ejercicio 19
+# mas_10 = lambda m: m + 10
+# print(mas_10(40))
+
+#Ekercicio 20
